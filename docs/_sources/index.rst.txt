@@ -10,6 +10,7 @@ Welcome to GEOMETOR's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   news
 
 
 Indices and tables
