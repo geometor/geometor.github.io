@@ -1,27 +1,19 @@
-
 .. geoemtor.github.io index file, created by `ablog start` on Mon May  2 15:57:40 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
+.. image:: _static/github-logo.png
+   :align: right
+   :alt: GitHub
 
 geometor.github.io
 ==================
 
-Hello World! Find more about me here: :ref:`about`
+General info on GEOMETOR github projects.
 
-
-Here is a list of most recent posts:
+Recent Posts
+------------
 
 .. postlist:: 5
    :excerpts:
-
-
-.. `toctree` directive, below, contains list of non-post `.rst` files.
-   This is how they appear in Navigation sidebar. Note that directive
-   also contains `:hidden:` option so that it is not included inside the page.
-
-   Posts are excluded from this directive so that they aren't double listed
-   in the sidebar both under Navigation and Recent Posts.
 
 .. toctree::
    :hidden:

@@ -1,8 +1,9 @@
 
 .. _about:
 
-About phi ARCHITECT
-============================
+
+About
+=====
 
 The world wants to know more about you.
 
