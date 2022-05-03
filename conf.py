@@ -1,12 +1,7 @@
 #!/usr/bin/env python
 
-
 # GEOMETOR build configuration file, created by
 # `ablog start` on Mon May  2 12:05:44 2022.
-#
-# Note that not all possible configuration values are present in this file.
-# All configuration values have a default; values that are commented out
-# serve to show the default.
 
 import os
 import sys
@@ -15,10 +10,7 @@ import photonsphinx
 
 # -- General ABlog Options ----------------------------------------------------
 
-# A path relative to the configuration directory for blog archive pages.
 blog_path = 'posts'
-
-# The "title" for the blog, used in active pages.  Default is ``'Blog'``.
 blog_title = "geometor.github.io"
 
 # Base URL for the website, required for generating feeds.
@@ -30,23 +22,10 @@ blog_baseurl = ""
 # up project building.
 # blog_archive_titles = False
 
-# -- Blog Authors, Languages, and Locations -----------------------------------
 
-# A dictionary of author names mapping to author full display names and
-# links. Dictionary keys are what should be used in ``post`` directive
-# to refer to the author.  Default is ``{}``.
 blog_authors = {
     "phi ARCHITECT": ("phi ARCHITECT", None),
 }
-
-
-# A dictionary of language code names mapping to full display names and
-# links of these languages. Similar to :confval:`blog_authors`, dictionary
-# keys should be used in ``post`` directive to refer to the locations.
-# Default is ``{}``.
-# blog_languages = {
-#    'en': ('English', None),
-# }
 
 
 # A dictionary of location names mapping to full display names and
@@ -72,16 +51,6 @@ blog_authors = {
 # the first image, when available, to the excerpt.  This option can be set
 # on a per post basis using :rst:dir:`post` directive option ``image``.
 # post_auto_image = 0
-
-# Number of seconds (default is ``5``) that a redirect page waits before
-# refreshing the page to redirect to the post.
-# post_redirect_refresh = 5
-
-# When ``True``, post title and excerpt is always taken from the section that
-# contains the :rst:dir:`post` directive, instead of the document. This is the
-# behavior when :rst:dir:`post` is used multiple times in a document. Default
-# is ``False``.
-# post_always_section = False
 
 # When ``True``, links to the previous and next posts will be rendered at the
 # bottom of the page.
@@ -275,12 +244,6 @@ todo_include_todos = False
 # a list of builtin themes.
 html_theme = 'photonsphinx'
 
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-html_theme_options = {
-    'github_button': True,
-}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [photonsphinx.get_path()]
