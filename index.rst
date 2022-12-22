@@ -1,4 +1,3 @@
-.. geoemtor.github.io index file, created by `ablog start` on Mon May  2 15:57:40 2022.
 
 .. image:: _static/github-logo.png
    :align: right
@@ -9,11 +8,21 @@ geometor.github.io
 
 General info on GEOMETOR github projects.
 
-Recent Posts
+recent logs:
 ------------
 
 .. postlist:: 5
    :excerpts:
+
+
+urgent todos:
+-------------
+
+.. postlist:: 
+   :category: TODO
+   :tags: urgent
+   :excerpts:
+
 
 .. toctree::
    :hidden:
